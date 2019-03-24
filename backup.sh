@@ -167,7 +167,7 @@ function getServerName()
 			echo "SERVERNAME=$SERVERNAME" >> ~/backup_cfg
 		fi
 	else
-		echo "Prosze podac login i adres serwera (np. s12345@lts.wmi.amu.edu.pl):"
+		echo "Prosze podac login i adres serwera:"
 		read SERVERNAME
 		TMP=$(cat ~/backup_cfg 2>/dev/null | grep -v '^SERVERNAME.*')
 		echo $TMP > ~/backup_cfg
