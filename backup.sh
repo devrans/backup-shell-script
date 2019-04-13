@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#Author Jakub Tolinski
-#nr indeksu 439493
 
 ADDED_PATH=
 ABSOLUTE_PATH=
